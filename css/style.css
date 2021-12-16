@@ -82,6 +82,7 @@ h3 {
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgb(130, 228, 203);
   }
   .container {
