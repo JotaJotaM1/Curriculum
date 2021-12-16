@@ -79,9 +79,12 @@ h3 {
 @media (max-width: 480px) {
   main {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     background-color: rgb(130, 228, 203);
+  }
+  .container {
+    height: 500px;
   }
 }
