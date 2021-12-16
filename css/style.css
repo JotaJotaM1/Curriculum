@@ -72,15 +72,14 @@ h3 {
   font-size: 13px;
   color: #5d6d7e;
 }
-
-footer {
+.containericons {
   display: flex;
   justify-content: center;
 }
-
 @media (max-width: 480px) {
   main {
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     background-color: rgb(130, 228, 203);
