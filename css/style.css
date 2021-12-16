@@ -14,12 +14,14 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: rgb(130, 228, 203);
+  align-items: center;
+  background-color: rgb(239, 255, 251);
 }
 
 .container {
   width: 350px;
-  margin: 5% 0;
+  height: 450px;
+  margin: 4% 0;
   background-color: white;
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
@@ -53,17 +55,19 @@ main {
   top: -70px;
 }
 
-h1 {
+h2 {
+  font-size: 15px;
   margin-top: 60px;
-  color: #5d6d7e;
   text-align: center;
-  font-weight: 100;
+  color: #2471a3;
 }
 
 h3 {
   color: #5d6d7e;
   text-align: center;
   font-weight: 100;
+  font-size: 13px;
+  color: #2471a3;
 }
 .list {
   list-style: none;
@@ -76,6 +80,23 @@ h3 {
   display: flex;
   justify-content: center;
 }
+.fa-html5 {
+  color: rgb(226, 60, 31);
+  font-size: 40px;
+  padding: 0 10px;
+}
+
+.fa-css3 {
+  color: rgb(0, 119, 255);
+  font-size: 40px;
+  padding: 0 10px;
+}
+
+.fa-github {
+  font-size: 40px;
+  padding: 0 10px;
+}
+
 @media (max-width: 480px) {
   main {
     width: 100%;
@@ -83,7 +104,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(130, 228, 203);
+    background-color: rgb(239, 255, 251);
   }
   .container {
     height: 500px;
