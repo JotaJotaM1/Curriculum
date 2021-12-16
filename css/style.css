@@ -1,39 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-*{
-box-sizing: border-box;
-font-family: 'Roboto', sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-main{
-width: 100%;
-height: auto;
-display: flex;
-justify-content: center;
-background-color: darkolivegreen;
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: darkolivegreen;
 }
 
-.container{
-width: 400px;
-background-color: white;
+.fondo {
+  width: 400px;
+  height: 200px;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
 }
 
-.containerjohn{
-   display: flex;
-   justify-content: center;
+.container {
+  width: 400px;
+  background-color: white;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
 }
 
-.john{
-border-radius: 100%;
-width: 150px;
-height: 150px;
+.containerjohn {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
 }
 
-h1, h3 { 
+.john {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -80px;
+}
+
+h1 {
+  margin-top: 80px;
   color: #005677;
   background-color: #c4c4c4;
   text-align: center;
   border-radius: 2rem;
+}
+h3{
+   color: #005677;
+  background-color: #c4c4c4;
+  text-align: center;
+  border-radius: 2rem;
+
 }
 
 footer {
